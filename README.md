@@ -3,7 +3,7 @@ Designprosjekt 9
 
 ## Plotting av amplituderespons
 Python-koden for plotting av amplituderespons ligger i mappa `D9_plotting`.
-Amplituderesponsen er plotta ved hjelp av matplotlib i python. For å plotte med andre paramtre må du endre på linje 8 til 13 i main.py
+Amplituderesponsen er plotta ved hjelp av matplotlib i python. For å plotte med andre paramtre må du endre på linje 8 til 15 i main.py
 
 ## Implementasjon på arduino
 Arduinokoden ligger i mappa `arduinokode2`
