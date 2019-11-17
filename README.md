@@ -7,4 +7,4 @@ Amplituderesponsen er plotta ved hjelp av matplotlib i python. Dette scriptet ka
 
 ## Implementasjon på arduino
 Arduinokoden ligger i mappa `arduinokode2`
-Arduinoen er konfigurert slik at r(t) må kobles til pin A0, og så får man ut b(t) på pin 13 og u(t) på pin 12.
+Arduinoen er konfigurert slik at r(t) må kobles til pin A0, og så får man ut b(t) på pin 13 og u(t) på pin 12. Det er også viktig inngangssignalet har offset på 2.5V.
