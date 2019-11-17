@@ -5,12 +5,12 @@ import matplotlib as plt
 from pylab import *;plot();show()
 import amplituderespons as ampRes
 
-startPlot = 0  #Frekvens å plotte fra i Hz 
-endPlot = 1200 #Frekvens å plotte til i Hz
-N0 = 2
-N1 = N0
-T_S0 = 6.5*10**-4
-T_S1 = 2 * T_S0
+startPlot = 0     #Frekvens å plotte fra i Hz 
+endPlot = 1200    #Frekvens å plotte til i Hz
+N0 = 2            #N for middelverdifilter H0
+N1 = N0           #N for middelverdifilter H0
+T_S0 = 6.5*10**-4 #Samplingsfrekvens for S0 i Hz
+T_S1 = 2 * T_S0   #Samplingsfrekvens for S0 i Hz
 
 #ampRes.plottMiddel(startfrekvens[Hz], sluttfrekvens[Hz], N, samplingsfrekvens T_S[Hz])
 ampRes.plottMiddel(startPlot, endPlot, N0, T_S0) #Plotter amplituderespons for H1

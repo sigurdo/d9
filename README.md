@@ -1,9 +1,9 @@
-# d9
+﻿# d9
 Designprosjekt 9
 
 ## Plotting av amplituderespons
 Python-koden for plotting av amplituderespons ligger i mappa `D9_plotting`.
-Amplituderesponsen er plotta ved hjelp av matplotlib i python. Dette scriptet kan kun brukes til å plotte grafer for vilkårlig N og samplingsfrekvens, gitt at T_S1 = 2 T_S0. Så for å plotte andre verdier av N og T_S, redigerer man linje 8 og 9 i `main.py`.
+Amplituderesponsen er plotta ved hjelp av matplotlib i python. For å plotte med andre paramtre må du endre på linje 8 til 13 i main.py
 
 ## Implementasjon på arduino
 Arduinokoden ligger i mappa `arduinokode2`
