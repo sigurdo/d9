@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import numpy as np
 import matplotlib as plt
-from pylab import *;plot();show()
+from pylab import *
 
 def fillList(fList, hList, N, T_S):
     HList = []
