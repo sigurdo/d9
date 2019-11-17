@@ -3,5 +3,6 @@ Filer
 Filer.zip
 *.png
 *.pptx
+*.pdf
 D9_plotting/.spyproject
 D9_plotting/__pycache__/

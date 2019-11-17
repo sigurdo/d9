@@ -10,9 +10,9 @@ endPlot = 1200    #Frekvens å plotte til i Hz
 f_0 = 340         #f_0 i Hz
 f_1 = 850         #f_1 i Hz
 N_0 = 2           #N for middelverdifilter H0
-N_1 = N_0         #N for middelverdifilter H0
-T_S0 = 6.5*10**-4 #Samplingsfrekvens for S0 i Hz
-T_S1 = 2 * T_S0   #Samplingsfrekvens for S0 i Hz
+N_1 = N_0         #N for middelverdifilter H1
+T_S0 = 6.5*10**-4 #Samplingsperiode for S0 i sek
+T_S1 = 2 * T_S0   #Samplingsperiode for S0 i sek
 
 #def ampRes.plottMiddel(startfrekvens[Hz], sluttfrekvens[Hz], N, samplingsfrekvens T_S[Hz])
 ampRes.plottMiddel(startPlot, endPlot, N_0, T_S0) #Plotter amplituderespons for H1
